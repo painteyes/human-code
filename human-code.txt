@@ -10,19 +10,28 @@ Ora ci penso io: una bella scansione e l’archiviamo in formato digitale, così
 L’unica pecca è che lo scanner non ha il fronte-retro automatico e mi tocca farlo a mano. Va beh, poco male, almeno sono pochi fogli!
 
 
-1 - Prendiamo tutti i fogli del documento
+1 - Prendi tutti i fogli
 
-2 - Oridiniamo in ordine crescente i fogli del documento
+2 - Disponi in ordine crescente le pagine 
+
+2 - FINCHE' il numero della pagina di ogni foglio non è minore di quello del foglio successivo
+
+    PER ogni foglio del documento        
+                
+        ? SE il numero della pagina è minore di quello del foglio successivo
+            - Non fare nulla
+
+        : ALTRIMENTI sposta il foglio prima di una posizione
 
 3 - PER ogni foglio del documento
+        
+        1. Prendi il foglio che c'è in cima
+        2. Scansiona il fronte
 
-    1. Prendi il foglio che c'è in cima
-    2. Scansiona fronte
+        ? SE il retro non è bianco
+         - 3. Scansiona il retro
 
-    ? SE trovo il trovo il retro
-     - 3. Scansiona retro
-
-4 - Salviamo la scansione del documento in formato digitale
+4 - Salva la scansione del documento in formato digitale
 
 
 
