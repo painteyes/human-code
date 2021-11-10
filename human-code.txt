@@ -1,0 +1,29 @@
+CONSEGNA:
+
+Scansionare un documento su più fogli fronte-retro
+
+La pratica perduta
+
+Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita nel nulla! 
+Che poi, possibile che nel 2021 ci siano ancora così tanti fogli di carta in giro per l’ufficio?! 
+Ora ci penso io: una bella scansione e l’archiviamo in formato digitale, così la prossima volta so già dove andare a cercarla! 
+L’unica pecca è che lo scanner non ha il fronte-retro automatico e mi tocca farlo a mano. Va beh, poco male, almeno sono pochi fogli!
+
+
+1 - Prendiamo tutti i fogli del documento
+
+2 - Oridiniamo in ordine crescente i fogli del documento
+
+3 - PER ogni foglio del documento
+
+    1. Prendi il foglio che c'è in cima
+    2. Scansiona fronte
+
+    ? SE trovo il trovo il retro
+     - 3. Scansiona retro
+
+4 - Salviamo la scansione del documento in formato digitale
+
+
+
+
